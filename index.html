@@ -14,5 +14,19 @@
   <button>Add Task</button>
   <h2>My Study Plan</h2>
   <p>No tasks added yet</p>
-  </body>
+    <script>
+      const button=
+        document.querySelector("button);
+        button.onclick=function() {
+          const subject=
+        document.getElementById("subject").value;
+          const task=
+          document.getElementById("task").value;
+          if (subject && task) {
+            document.querySelector("p").textContent=
+              subject + ": " + task;
+     }
+ };
+ </script>
+ </body>
 </html>
