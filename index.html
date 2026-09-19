@@ -2,6 +2,44 @@
 <html>
   <head>
     <title>Smart Study Planner</title>
+    <style>
+      body {
+        front-family: Arial, sans-serif;
+        background: #eaf4ff;
+        padding: 30px;
+      }
+      h1 {
+        color:#2563eb;
+      }
+      input{
+        padding: 10px;
+        margin: 5px
+        border: 2px solid #93c5fd;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #1d4ed8;
+        transform: scale(1.05);
+      }
+      #tasklist {
+        margin-top: 20px;
+        padding: 15px;
+        background: white;
+        border-radius: 10px;
+        animation: appear 0.5s ease;
+      }
+      @keyframes appear {
+        from{
+          opacity:0;
+          transform: translateY(10px);
+        }
+        to{
+          opacity: 0;
+          transform: translateY(0)
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Smart Study Planner</h1>
